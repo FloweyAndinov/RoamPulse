@@ -22,7 +22,7 @@ export const NavbarComp = () => {
  <div className={styles.root}>
       <Navbar bg="light" expand="md" className="px-4">
       <Navbar.Brand href="#home">
-      <img src={logo} alt="Logo"/>
+      <img src={logo} alt="Logo" style={{width : '3em'}}/>
       </Navbar.Brand>
       <Navbar.Toggle aria-controls="basic-navbar-nav" />
       <Navbar.Collapse id="basic-navbar-nav">

@@ -1,7 +1,34 @@
 .root {
-    
+    // align-items: center;
+    justify-content: center;
+    text-align: center;
+    border-bottom: 5px solid #FFB312;
 }
 
-*{
-    //font here
+.logo {
+   padding-top: 3em;
 }
+
+.logoimg {
+    width : 10em;
+     height : 10em;
+}
+
+
+.herotitle {
+    font-size: 5em; /* Set your desired font size */
+    color : #FF2100;
+    padding-top: 0.5em;
+    font-weight: bold;
+    letter-spacing: 3px;
+}
+
+.herotitle2 {
+    font-size: 3.5em; /* Set your desired font size */
+    color : #181818;
+    font-weight: bolder;
+    padding-top: 3.5em;
+   
+}
+
+

@@ -8,6 +8,7 @@ import "bootstrap/dist/css/bootstrap.min.css"
 import "bootstrap/dist/js/bootstrap.js"
 import { Header } from './components/header/header';
 import { NavbarComp } from './components/navbar/navbarcomp';
+import { Features } from './components/features/features';
 
 
 function App() {
@@ -17,6 +18,8 @@ function App() {
        <div>
       <NavbarComp/>
       <Header/>
+      <Features/>
+      
        </div>
     );
 }
