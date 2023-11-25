@@ -1,11 +1,39 @@
-.root {
-    width: 100vw;
+
+
+.nav {
+    background-color: #d0d0d0;
 }
+
+
+.navbtn:hover {
+    color: #0060FF;
+    text-decoration: underline #0060FF;
+}
+
+.signUp {
+    background-color: red;
+    color: white;
+    margin-left : 0;
+}
+
 
 .navbtn {
-    margin : 0 1em;
+    margin : 0 0.5em;
+    color : #181818;
 }
 
-*{
-    //font here
+
+.logo {
+    height: fit-content;
+    width: fit-content;
+    margin-right: 0;
+}
+
+
+img {
+    height : 2.5em;
+}
+
+.root {
+    border-bottom: 5px solid #FFB312;
 }
