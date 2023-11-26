@@ -1,0 +1,57 @@
+.root {
+    justify-content: center;
+    text-align: center;
+    margin: auto;
+    border-bottom: 5px solid #FFB312;
+    background-color: #181818;
+    padding-bottom: 5rem;
+    color: #d0d0d0;
+}
+
+.title {
+    padding-top: 5em;
+    padding-bottom: 5em;
+    
+}
+
+.title h1 {
+    font-size: 4.7rem;
+    
+    color: #d0d0d0;
+    font-weight: bolder;
+    letter-spacing: 0.1rem;
+}
+
+.chapterleft h2 {
+    text-align: left;
+    margin-left: 1rem;
+    font-weight: bolder;
+}
+
+.chapterleft h3 {
+    text-align: left;
+    margin-left: 1rem;
+}
+
+.chapterright h2 {
+    text-align: right;
+    margin-right: 1rem;
+    font-weight: bolder;
+}
+
+.chapterright h3 {
+    text-align: right;
+    margin-right: 1rem;
+}
+
+#red {
+    color : #FF2100;
+}
+
+#purple {
+    color: #B700FF;
+}
+
+#brown {
+    color : #8A6000;
+}

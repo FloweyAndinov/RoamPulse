@@ -11,6 +11,7 @@ import { NavbarComp } from './components/navbar/navbarcomp';
 import Card from './components/card/card';
 import { v4 as uuidv4 } from 'uuid';
 import Features from './components/features/features';
+import { OurJourney } from './components/our-journey/our-journey';
 
 function App() {
    
@@ -22,7 +23,7 @@ function App() {
       <NavbarComp/>
       <Header/>
       <Features/>
-      
+      <OurJourney/>
        </div>
     );
 }

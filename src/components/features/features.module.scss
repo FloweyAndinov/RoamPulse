@@ -1,8 +1,9 @@
 .root {
-    height: 50vh;
+    height: 65rem;
     justify-content: center;
     text-align: center;
     margin: auto;
+    border-bottom: 5px solid #FFB312;
 }
 
 .carousel{
@@ -19,5 +20,6 @@
     padding-top: 1em;
     color : #d0d0d0;
     font-weight: bolder;
+    letter-spacing: 0.1rem;
 }
 
