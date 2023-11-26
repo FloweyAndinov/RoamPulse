@@ -1,55 +1,83 @@
 import classNames from 'classnames';
 import styles from './features.module.scss';
 
-import {Carousel} from 'react-bootstrap'
+import { useState, useEffect } from "react";
+import { config } from "react-spring";
 
-import Carousel3D from 'react-spring-3d-carousel';
+import { v4 as uuidv4 } from 'uuid';
+
+
+import bg from "../../assets/featuresbg.png"
 
 import "bootstrap/dist/css/bootstrap.min.css"
 import "bootstrap/dist/js/bootstrap.js"
+import Card from '../card/card';
+import {Carousel} from '../carousel/carousel';
 
 /**
  * This component was created using Codux's Default new component template.
  * To create custom component templates, see https://help.codux.com/kb/en/article/kb16522
  */
-const slides = [
+
+export default function Features () {
+
+  let cards = [
     {
-      key: "key1",
-      content: <img src="https://picsum.photos/800/800/?random" alt="1" />
+      key: uuidv4(),
+      content: (
+        <Card imagee="https://updates.theme-fusion.com/wp-content/uploads/2017/12/convertplus_thumbnail.jpg" />
+      )
     },
     {
-      key: "key2",
-      content: <img src="https://picsum.photos/800/800/?random" alt="2" />
+      key: uuidv4(),
+      content: (
+        <Card imagee="https://updates.theme-fusion.com/wp-content/uploads/2017/12/acf_pro.png" />
+      )
     },
     {
-      key: "key3",
-      content: <img src="https://picsum.photos/600/800/?random" alt="3" />
+      key: uuidv4(),
+      content: (
+        <Card imagee="https://updates.theme-fusion.com/wp-content/uploads/2017/12/layer_slider_plugin_thumb.png" />
+      )
+    },
+    {
+      key: uuidv4(),
+      content: (
+        <Card imagee="https://updates.theme-fusion.com/wp-content/uploads/2016/08/slider_revolution-1.png" />
+      )
+    },
+    {
+      key: uuidv4(),
+      content: (
+        <Card imagee="https://updates.theme-fusion.com/wp-content/uploads/2019/01/pwa_880_660.jpg" />
+      )
+    },
+    {
+      key: uuidv4(),
+      content: (
+        <Card imagee="https://updates.theme-fusion.com/wp-content/uploads/2016/08/slider_revolution-1.png" />
+      )
+    },
+    {
+      key: uuidv4(),
+      content: (
+        <Card imagee="https://updates.theme-fusion.com/wp-content/uploads/2019/01/pwa_880_660.jpg" />
+      )
     }
   ];
-
-  
-
-export const Features = () => {
     return (
-    <div className={classNames(styles.root)} id="features" style={{height : '50vh', width : '50vw'}}>
+    <div className={classNames(styles.root)} id="features" style={{ backgroundImage : `url(${bg})`}}>
        
-       <h1 className={styles.title}>Features</h1>
-       {/* <Carousel className={classNames(styles.carousel , "py-5")}>
-        <Carousel.Item>
-            LALALALLA
-        </Carousel.Item>
+       <h1 className={styles.title}>Features</h1>   
 
-        <Carousel.Item>
-            HAHAHHAHAHAH
-        </Carousel.Item>
-       </Carousel> */}
-
-    <Carousel3D slides={slides} showNavigation />
+       <Carousel cards={cards} height="500px"
+        width="30%"
+        margin="10em auto 10em"
+        offset={2}
+        showArrows={false}/>
         
     </div>
     )
 };
-function uuidv4() {
-    return ('Function not implemented.');
-}
+
 

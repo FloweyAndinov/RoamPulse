@@ -8,10 +8,13 @@ import "bootstrap/dist/css/bootstrap.min.css"
 import "bootstrap/dist/js/bootstrap.js"
 import { Header } from './components/header/header';
 import { NavbarComp } from './components/navbar/navbarcomp';
-import { Features } from './components/features/features';
-
+import Card from './components/card/card';
+import { v4 as uuidv4 } from 'uuid';
+import Features from './components/features/features';
 
 function App() {
+   
+
     const [count, setCount] = useState(0);
 
     return (

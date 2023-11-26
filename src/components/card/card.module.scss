@@ -1,0 +1,17 @@
+.root {
+    
+}
+.img {
+    height : 30em;
+}
+@media screen and (max-width: 1000px) {
+    .img {
+       height: 23em;
+    }
+  }
+
+  @media screen and (max-width: 550px) {
+    .img {
+       height: 20em;
+    }
+  }
