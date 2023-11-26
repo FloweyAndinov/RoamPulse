@@ -13,16 +13,18 @@ import "bootstrap/dist/js/bootstrap.js"
 
 export const Header = () => {
     return (
-    <div className={classNames(styles.root)} style={{height : '95vh', backgroundImage : `url(${bg})`}} id="header">
+    <div className={classNames(styles.root)} style={{height : '60em', backgroundImage : `url(${bg})`}} id="header">
         <div className={styles.logo}>
         <img src={logo} alt="Logo" className={styles.logoimg}/>
         </div>
         <h1 className={styles.herotitle}>RoamPulse</h1>
         <h2 className={styles.herotitle2}>The Best Travel Assistant</h2>
         <div>
+        <h2 className={styles.herotitle3}>
             <a href="#features">
                 SEE MORE BELOW!
             </a>
+            </h2>
         </div>
     </div>
     )
