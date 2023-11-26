@@ -1,3 +1,9 @@
 body {
   /* background-color: #181818; */
 }
+
+@media screen and (max-width: 500px) {
+  html {
+      font-size: 14px;
+  }
+}

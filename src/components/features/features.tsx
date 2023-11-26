@@ -13,9 +13,9 @@ import "bootstrap/dist/js/bootstrap.js"
 export const Features = () => {
     return (
     <div className={classNames(styles.root)} id="features">
-
-        Features
-
+       
+       <h1 className={styles.title}>Features</h1>
+        
     </div>
     )
 };

@@ -1,44 +1,54 @@
 .root {
-    // align-items: center;
+    // align-itrems: center;
     justify-content: center;
     text-align: center;
     border-bottom: 5px solid #FFB312;
 }
 
 .logo {
-   padding-top: 3em;
+   padding-top: 2.5rem;
 }
 
 .logoimg {
-    width : 10em;
-     height : 10em;
+    width : 10rem;
+     height : 10rem;
 }
 
 
 .herotitle {
-    font-size: 5em; /* Set your desired font size */
+    font-size: 4.7rem; /* Set your desired font size */
     color : #FF2100;
-    padding-top: 0.5em;
+    padding-top: 0.5rem;
     font-weight: bold;
     letter-spacing: 3px;
 }
 
 .herotitle2 {
-    font-size: 3.5em; /* Set your desired font size */
+    font-size: 3.8rem; /* Set your desired font size */
     color : #181818;
     font-weight: bolder;
-    padding-top: 3.5em;
+    padding-top: 2.5rem;
    
 }
 
 .herotitle3 {
-    font-size: 3em; /* Set your desired font size */
+    font-size: 3rem; /* Set your desired font size */
     color : #181818;
-    padding-top: 3.5em;
+    padding-top: 5em;
+    padding-bottom: 5em;
+    
+}
+.herotitle3 a {
+    color : #FFB312;
+    text-decoration: none;
+    background-color: #FF2100;
+    padding: 0px 10px;
 }
 
-.herotitle3:hover {
+.herotitle3 a:hover {
     color: #0060FF;
     text-decoration: underline #0060FF;
 }
+
+
 

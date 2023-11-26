@@ -13,7 +13,7 @@ import "bootstrap/dist/js/bootstrap.js"
 
 export const Header = () => {
     return (
-    <div className={classNames(styles.root)} style={{height : '60em', backgroundImage : `url(${bg})`}} id="header">
+    <div className={classNames(styles.root)} style={{ backgroundImage : `url(${bg})`}} id="header">
         <div className={styles.logo}>
         <img src={logo} alt="Logo" className={styles.logoimg}/>
         </div>
