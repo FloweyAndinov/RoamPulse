@@ -33,15 +33,17 @@ function Card({imagee} : Props) {
       onMouseEnter={() => setShown(true)}
       onMouseLeave={() => setShown(false)}
     >
+    <div style={{backgroundColor : 'white'}}>
       <img src={imagee} alt="" className={styles.img}/>
       <h2>Title</h2>
-      <p>
+      <p className={styles.par}>
         Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam
         nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat
         volutpat.
       </p>
       <div className={styles.btnn}>
       </div>
+    </div>
     </animated.div>
   );
 }

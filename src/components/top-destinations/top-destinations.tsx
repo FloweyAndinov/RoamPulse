@@ -21,7 +21,7 @@ const TopDestinations = () => {
 
 
   return (
-    <div className={classNames(styles.root)} style={{ height: '100rem' }}>
+    <div className={classNames(styles.root)} style={{ height: 'auto' }}>
     <div className={styles.title}>
         <h1>Top Destinations</h1>
     </div>

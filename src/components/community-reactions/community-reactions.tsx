@@ -20,10 +20,24 @@ export const CommunityReactions = () => {
         <div>
             <Carousel>
                 <Carousel.Item>
-                    Mamamata
+                    <div style={{marginBottom : '10rem'}}>
+                        <div>
+                        <h1>Mamichkata</h1>
+                        </div>
+                        <div>
+                        <h2>Mamata</h2>
+                        </div>
+                    </div>
                 </Carousel.Item>
                 <Carousel.Item>
-                    Mamamata
+                <div style={{marginBottom : '10rem'}}> 
+                        <div>
+                        <h1>Mamichkata</h1>
+                        </div>
+                        <div>
+                        <h2>Mamata</h2>
+                        </div>
+                    </div>
                 </Carousel.Item>
             </Carousel>
         </div>
