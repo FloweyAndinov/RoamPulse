@@ -7,9 +7,14 @@ import tsconfigPaths from 'vite-tsconfig-paths'
 export default defineConfig({
     plugins: [react(), svgr() , tsconfigPaths()],
 
+    server: {
+      host: true
+    },
+
     resolve: {
         alias: {
           src: "/src",
         },
       }
+     
 });

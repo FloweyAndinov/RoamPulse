@@ -12,6 +12,8 @@ import Card from './components/card/card';
 import { v4 as uuidv4 } from 'uuid';
 import Features from './components/features/features';
 import { OurJourney } from './components/our-journey/our-journey';
+import TopDestinations from './components/top-destinations/top-destinations';
+
 
 function App() {
    
@@ -24,6 +26,7 @@ function App() {
       <Header/>
       <Features/>
       <OurJourney/>
+      <TopDestinations/>
        </div>
     );
 }
