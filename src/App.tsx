@@ -13,6 +13,8 @@ import { v4 as uuidv4 } from 'uuid';
 import Features from './components/features/features';
 import { OurJourney } from './components/our-journey/our-journey';
 import TopDestinations from './components/top-destinations/top-destinations';
+import { CommunityReactions } from './components/community-reactions/community-reactions';
+import { Footer } from './components/footer/footer';
 
 
 function App() {
@@ -27,6 +29,8 @@ function App() {
       <Features/>
       <OurJourney/>
       <TopDestinations/>
+      <CommunityReactions/>
+      <Footer/>
        </div>
     );
 }

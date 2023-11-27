@@ -14,9 +14,14 @@
 }
 
 .title h1 {
-    font-size: 4.7rem;
+    font-size: 3.5rem;
     
-    color: #d0d0d0;
+    color: #FF2100;
     font-weight: bolder;
     letter-spacing: 0.1rem;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
 }
