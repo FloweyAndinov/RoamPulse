@@ -4,7 +4,8 @@ import styles from './community-reactions.module.scss';
 import "bootstrap/dist/css/bootstrap.min.css"
 import "bootstrap/dist/js/bootstrap.js"
 import { Carousel } from 'react-bootstrap';
-import ivan from "src/assets/sofia.png"
+import ivan from "src/assets/ivan.png"
+import alex from "src/assets/alex.png"
 
 /**
  * This component was created using Codux's Default new component template.
@@ -22,8 +23,8 @@ export const CommunityReactions = () => {
             <Carousel>
                 <Carousel.Item>
                     <div style={{marginBottom : '10rem'}}>
-                        <div>
-                            <img src={ivan} alt="" style={{height : '15rem'}} />
+                        <div className={styles.carouselImage}>
+                            <img  src={ivan} alt=""/>
                         </div>
                         <div>
                         <h1>Иван Иванов</h1>
@@ -35,8 +36,8 @@ export const CommunityReactions = () => {
                 </Carousel.Item>
                 <Carousel.Item>
                 <div style={{marginBottom : '10rem'}}> 
-                        <div>
-                            <img src={ivan} alt="" style={{height : '15rem'}} />
+                        <div className={styles.carouselImage}>
+                            <img  src={alex} alt="" />
                         </div>
                         <div>
                         <h1>Алекс Стоянов</h1>

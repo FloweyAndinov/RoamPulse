@@ -5,8 +5,9 @@
     border-bottom: 5px solid #FFB312;
     background-color: #181818;
     padding-bottom: 5rem;
+    
     color: #d0d0d0;
-    height : 70vh
+    
 }
 
 .title {
@@ -20,4 +21,9 @@
     color: #d0d0d0;
     font-weight: bolder;
     letter-spacing: 0.1rem;
+}
+
+.carouselImage img {
+    height : 15rem;
+    border-radius: 10rem;
 }
