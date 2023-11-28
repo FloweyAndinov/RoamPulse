@@ -20,11 +20,11 @@ export const Header = () => {
         <h1 className={styles.herotitle}>RoamPulse</h1>
         <h2 className={styles.herotitle2}>The Best Travel Assistant</h2>
         <div>
-        <h2 className={styles.herotitle3}>
             <a href="#features">
-                SEE MORE BELOW!
+        <button className={classNames(styles.seemorebutton , "btn btn-outline-danger")}>
+                Click to see more!
+            </button>
             </a>
-            </h2>
         </div>
     </div>
     )

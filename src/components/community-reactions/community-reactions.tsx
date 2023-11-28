@@ -26,11 +26,11 @@ export const CommunityReactions = () => {
                         <div className={styles.carouselImage}>
                             <img  src={ivan} alt=""/>
                         </div>
-                        <div>
+                        <div style={{marginBottom : '2rem'}}>
                         <h1>Иван Иванов</h1>
                         </div>
                         <div>
-                        <h2>insert mnenie tuk insert mnenie tuk insert mnenie tuk insert mnenie tuk</h2>
+                        <h2>Това приложение е невероятно!</h2>
                         </div>
                     </div>
                 </Carousel.Item>
@@ -39,11 +39,11 @@ export const CommunityReactions = () => {
                         <div className={styles.carouselImage}>
                             <img  src={alex} alt="" />
                         </div>
-                        <div>
+                        <div style={{marginBottom : '2rem'}}>
                         <h1>Алекс Стоянов</h1>
                         </div>
                         <div>
-                        <h2>insert mnenie tuk insert mnenie tuk insert mnenie tuk insert mnenie tuk</h2>
+                        <h2>Не мога да повярвам! Изключително добри функции!</h2>
                         </div>
                     </div>
                 </Carousel.Item>

@@ -37,15 +37,21 @@
 .herotitle3 {
     font-size: 3rem; /* Set your desired font size */
     color : #181818;
-    padding-top: 5em;
-    padding-bottom: 5em;
+    margin-top: 5em;
+    margin-bottom: 5em;
     
 }
-.herotitle3 a {
-    color : #FFB312;
+
+
+.seemorebutton {
+    // color : #FFB312;
     text-decoration: none;
-    background-color: #FF2100;
+    background-color: #FFB312;
+    color : #181818;
     padding: 0px 10px;
+    margin-top: 5em;
+    margin-bottom: 5em;
+    font-size: 3rem;
 }
 
 .herotitle3 a:hover {

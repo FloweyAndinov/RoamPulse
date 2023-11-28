@@ -45,13 +45,13 @@ const TopDestinations = () => {
       </div>
     <h3 >Paris, France</h3>
 
-    <div>
-      <button>
+    <div className={styles.seeMore}>
+      <button className='btn btn-outline-success'>
         See more!
       </button>
     </div>
 
-    
+
     </div>
     <div className={classNames("col" , styles.col)} 
     style={{backgroundImage : `url(${darkromeimg})`}}
@@ -64,8 +64,8 @@ const TopDestinations = () => {
     </div>
     <h3>Rome, Italy</h3>
 
-    <div>
-      <button>
+    <div className={styles.seeMore}>
+      <button className='btn btn-outline-success'>
         See more!
       </button>
     </div>
@@ -83,8 +83,8 @@ const TopDestinations = () => {
     </div>
     <h3>Santorini, Greece</h3>
 
-    <div>
-      <button>
+    <div className={styles.seeMore}>
+      <button className='btn btn-outline-success'>
         See more!
       </button>
     </div>
@@ -105,8 +105,8 @@ const TopDestinations = () => {
     </div>
     <h3>Kyoto, Japan</h3>
 
-    <div>
-      <button>
+    <div className={styles.seeMore}>
+      <button className='btn btn-outline-success'>
         See more!
       </button>
     </div>
@@ -124,8 +124,8 @@ const TopDestinations = () => {
     </div>
     <h3>Istanbul, Turkey</h3>
 
-    <div>
-      <button>
+    <div className={styles.seeMore}>
+      <button className='btn btn-outline-success'>
         See more!
       </button>
     </div>
@@ -144,8 +144,8 @@ const TopDestinations = () => {
     <h3>Sofia, Bulgaria</h3>
 
 
-    <div>
-      <button>
+    <div className={styles.seeMore}>
+      <button className='btn btn-outline-success'>
         See more!
       </button>
     </div>
