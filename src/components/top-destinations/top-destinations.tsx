@@ -44,6 +44,14 @@ const TopDestinations = () => {
         
       </div>
     <h3 >Paris, France</h3>
+
+    <div>
+      <button>
+        See more!
+      </button>
+    </div>
+
+    
     </div>
     <div className={classNames("col" , styles.col)} 
     style={{backgroundImage : `url(${darkromeimg})`}}
@@ -55,6 +63,14 @@ const TopDestinations = () => {
         
     </div>
     <h3>Rome, Italy</h3>
+
+    <div>
+      <button>
+        See more!
+      </button>
+    </div>
+
+    
     </div>
     <div className={classNames("col" , styles.col)} 
     style={{backgroundImage : `url(${darksantoriniimg})`}}
@@ -66,6 +82,14 @@ const TopDestinations = () => {
         
     </div>
     <h3>Santorini, Greece</h3>
+
+    <div>
+      <button>
+        See more!
+      </button>
+    </div>
+
+
     </div>
 
 </div>
@@ -80,6 +104,14 @@ const TopDestinations = () => {
         
     </div>
     <h3>Kyoto, Japan</h3>
+
+    <div>
+      <button>
+        See more!
+      </button>
+    </div>
+
+
     </div>
     <div className={classNames("col" , styles.col)} 
     style={{backgroundImage : `url(${darkistanbulimg})`}}
@@ -91,6 +123,14 @@ const TopDestinations = () => {
         
     </div>
     <h3>Istanbul, Turkey</h3>
+
+    <div>
+      <button>
+        See more!
+      </button>
+    </div>
+
+
     </div>
     <div className={classNames("col" , styles.col)} 
     style={{backgroundImage : `url(${darksofiaimg})`}}
@@ -102,7 +142,15 @@ const TopDestinations = () => {
         
     </div>
     <h3>Sofia, Bulgaria</h3>
+
+
+    <div>
+      <button>
+        See more!
+      </button>
     </div>
+    </div>
+   
 </div>
 </div>
 </div>
