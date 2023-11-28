@@ -5,6 +5,11 @@ import "bootstrap/dist/css/bootstrap.min.css"
 import "bootstrap/dist/js/bootstrap.js"
 import parisimg from "src/assets/paris.jpg"
 import darkparisimg from "src/assets/paris_darken.jpg"
+import darkromeimg from "src/assets/rome.png"
+import darksantoriniimg from "src/assets/santorini.png"
+import darkkyotoing from "src/assets/kyoto.png"
+import darkistanbulimg from "src/assets/istanbul.png"
+import darksofiaimg from "src/assets/sofia.png"
 import { useState } from 'react';
 /**
  * This component was created using Codux's Default new component template.
@@ -41,7 +46,7 @@ const TopDestinations = () => {
     <h3 >Paris, France</h3>
     </div>
     <div className={classNames("col" , styles.col)} 
-    style={{backgroundImage : `url(${darkparisimg})`}}
+    style={{backgroundImage : `url(${darkromeimg})`}}
     >
     <div>
         
@@ -52,7 +57,7 @@ const TopDestinations = () => {
     <h3>Rome, Italy</h3>
     </div>
     <div className={classNames("col" , styles.col)} 
-    style={{backgroundImage : `url(${darkparisimg})`}}
+    style={{backgroundImage : `url(${darksantoriniimg})`}}
     >
     <div>
         
@@ -66,7 +71,7 @@ const TopDestinations = () => {
 </div>
 <div className="row">
 <div className={classNames("col" , styles.col)} 
-    style={{backgroundImage : `url(${darkparisimg})`}}
+    style={{backgroundImage : `url(${darkkyotoing})`}}
     >
     <div>
         
@@ -77,7 +82,7 @@ const TopDestinations = () => {
     <h3>Kyoto, Japan</h3>
     </div>
     <div className={classNames("col" , styles.col)} 
-    style={{backgroundImage : `url(${darkparisimg})`}}
+    style={{backgroundImage : `url(${darkistanbulimg})`}}
     >
     <div>
         
@@ -88,7 +93,7 @@ const TopDestinations = () => {
     <h3>Istanbul, Turkey</h3>
     </div>
     <div className={classNames("col" , styles.col)} 
-    style={{backgroundImage : `url(${darkparisimg})`}}
+    style={{backgroundImage : `url(${darksofiaimg})`}}
     >
     <div>
         
