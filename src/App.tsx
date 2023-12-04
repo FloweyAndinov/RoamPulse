@@ -1,37 +1,52 @@
-import { useState } from 'react';
-import classNames from 'classnames';
-import { ReactComponent as ReactLogo } from './assets/react.svg';
-import { ReactComponent as ViteLogo } from './assets/vite.svg';
-import { ReactComponent as TypescriptLogo } from './assets/typescript.svg';
-import { ReactComponent as ScssLogo } from './assets/scss.svg';
 import "bootstrap/dist/css/bootstrap.min.css"
 import "bootstrap/dist/js/bootstrap.js"
-import { Header } from './components/header/header';
-import { NavbarComp } from './components/navbar/navbarcomp';
-import Card from './components/card/card';
-import { v4 as uuidv4 } from 'uuid';
-import Features from './components/features/features';
-import { OurJourney } from './components/our-journey/our-journey';
-import TopDestinations from './components/top-destinations/top-destinations';
-import { CommunityReactions } from './components/community-reactions/community-reactions';
-import { Footer } from './components/footer/footer';
+
+import { createBrowserRouter , RouterProvider , Router } from 'react-router-dom';
+import Home from './components/pages/home/Home';
+import FeaturesPage from "./components/pages/features/FeaturesPage";
+import TrendingPage from "./components/pages/trending/TrendingPage";
+import PricingPage from "./components/pages/pricing/PricingPage";
+import ContactsPage from "./components/pages/contacts/ContactsPage";
 
 
 function App() {
    
 
-    const [count, setCount] = useState(0);
+    const router = createBrowserRouter([
+        {
+            path : "/",
+            element :  <>
+                <Home/>
+             </>
+        },
+        {
+            path : "/features",
+            element : <>
+            <FeaturesPage/>
+            </>
+        },
+        {
+            path : "/trending",
+            element : <>
+            <TrendingPage/>
+            </>
+        },
+        {
+            path : "/pricing",
+            element : <>
+            <PricingPage/>
+            </>
+        },
+        {
+            path : "/contacts",
+            element : <>
+            <ContactsPage/>
+            </>
+        }
+    ])
 
     return (
-       <div>
-      <NavbarComp/>
-      <Header/>
-      <Features/>
-      <OurJourney/>
-      <TopDestinations/>
-      <CommunityReactions/>
-      <Footer/>
-       </div>
+      <RouterProvider router={router}/>
     );
 }
 
