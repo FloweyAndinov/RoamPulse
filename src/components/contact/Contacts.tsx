@@ -23,6 +23,7 @@ const Contacts: React.FC = () => {
     e.preventDefault();
     // Add your form submission logic here
     console.log('Form submitted:', formData);
+    window.location.href = '/';
   };
 
   return (
