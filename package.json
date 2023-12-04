@@ -1,13 +1,13 @@
 {
-  "homepage": "https://FloweyAndinov.github.io/RoamPulse/",
+  "homepage": "https://floweyandinov.github.io/RoamPulse/",
   "name": "roam-pulse",
   "private": true,
   "version": "1.0.0",
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "predeploy" : "npm run build",
-    "deploy" : "gh-pages -d build",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist",
     "build": "tsc && vite build",
     "preview": "vite preview"
   },
