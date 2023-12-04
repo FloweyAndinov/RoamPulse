@@ -1,0 +1,11 @@
+.pricingPage {
+    max-width: 800px;
+    margin: 7rem auto;
+    text-align: center;
+  }
+  
+  .pricingCards {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 3rem;
+  }
