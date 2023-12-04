@@ -9,21 +9,21 @@ const Pricing: React.FC = () => {
 
       <div className={styles.pricingCards}>
         <PricingCard
-          title="Basic Plan"
+          title="Basic"
           price="$9.99/month"
-          features={['Feature 1', 'Feature 2', 'Feature 3']}
+          features={['Event Locator', 'AI Maps', 'Reviews']}
         />
 
         <PricingCard
-          title="Standard Plan"
+          title="Standard"
           price="$19.99/month"
-          features={['Feature 1', 'Feature 2', 'Feature 3', 'Feature 4']}
+          features={['Event Locator', 'AI Maps', 'Reviews' , 'Local Words']}
         />
 
         <PricingCard
-          title="Premium Plan"
+          title="Premium"
           price="$29.99/month"
-          features={['Feature 1', 'Feature 2', 'Feature 3', 'Feature 4', 'Feature 5']}
+          features={['Event Locator', 'AI Maps', 'Reviews' , 'Local Words', 'Power Orders']}
         />
       </div>
     </div>
