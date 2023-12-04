@@ -1,0 +1,63 @@
+
+.container {
+    height : auto;
+    padding : 2rem ;
+    padding-bottom: 10rem;
+     display : flex; 
+     background-color : #181818;
+    color : hsl(0, 0%, 82%);
+    border-bottom: 5px solid #FFB312;
+}
+
+.container h1 {
+    font-size: 5rem;
+}
+
+.container p {
+    line-height: 1.8rem;
+}
+
+.container img {
+    width : 30rem;
+    height : 40rem;
+    margin-right : 5rem;
+    margin-top : 5rem
+}
+
+.title {
+    margin-top: 5rem;
+}
+
+.paragraph {
+        margin-top: 5rem;
+        max-width: 30rem;
+}
+
+@media screen and (min-width: 200px) and ( max-width : 800px) {
+    .container img {
+        width : 50vw;
+        height : 40rem;
+        margin-right : 10%;
+        margin-top : 5rem
+    }
+    .container h1 {
+        font-size: 4rem;
+    }
+    
+    .container p {
+        font-size: 0.8rem;
+        line-height: 1.8rem;
+    }
+    .subcontainer {
+        margin-top: 5rem;
+    }
+
+    .title {
+        margin-top: 4rem;
+    }
+    
+    .paragraph {
+            margin-top: 2rem;
+    }
+    
+}
