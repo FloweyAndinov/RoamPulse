@@ -26,6 +26,7 @@
 
 .title {
     margin-top: 5rem;
+    width: 30rem;
 }
 
 .paragraph {
@@ -35,8 +36,8 @@
 
 @media screen and (min-width: 200px) and ( max-width : 800px) {
     .container img {
-        width : 50vw;
-        height : 40rem;
+        width : 20rem;
+        height : 30rem;
         margin-right : 10%;
         margin-top : 5rem
     }
@@ -58,6 +59,7 @@
     
     .paragraph {
             margin-top: 2rem;
+            width: 10rem;
     }
     
 }

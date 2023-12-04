@@ -46,12 +46,19 @@
 .seemorebutton {
     // color : #FFB312;
     text-decoration: none;
-    background-color: #FFB312;
-    color : #181818;
+    background-color: #FF2100;
+    color : #d0d0d0;
     padding: 0px 10px;
     margin-top: 5em;
     margin-bottom: 5em;
     font-size: 3rem;
+    transition: 0.3s;
+}
+
+.seemorebutton:hover {
+    background-color: #FFB312;
+    color: #181818;
+    transition: 0.3s;
 }
 
 .herotitle3 a:hover {

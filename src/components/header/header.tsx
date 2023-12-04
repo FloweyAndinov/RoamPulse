@@ -21,7 +21,7 @@ export const Header = () => {
         <h2 className={styles.herotitle2}>The Best Travel Assistant</h2>
         <div>
             <a href="#features">
-        <button className={classNames(styles.seemorebutton , "btn btn-outline-danger")}>
+        <button className={classNames(styles.seemorebutton)}>
                 Click to see more!
             </button>
             </a>
