@@ -6,21 +6,21 @@
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
   }
   
-  h1 {
+  .container h1 {
     text-align: center;
     color: #333;
   }
   
-  form {
+ .container form {
     display: flex;
     flex-direction: column;
   }
   
-  label {
+ .container label {
     margin-top: 10px;
   }
   
-  input,
+ .container input,
   textarea {
     padding: 10px;
     margin-bottom: 15px;

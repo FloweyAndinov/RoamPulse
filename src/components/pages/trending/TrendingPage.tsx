@@ -4,6 +4,9 @@ const TrendingPage = () => {
   return (
     <>
     <NavbarComp/>
+    <div>
+      Trending Page
+    </div>
     </>
   )
 }
