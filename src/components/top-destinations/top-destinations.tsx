@@ -20,6 +20,7 @@ import { useState } from 'react';
 
 
 import React from 'react'
+import { Link } from 'react-router-dom';
 
 const TopDestinations = () => {
 
@@ -42,9 +43,10 @@ const TopDestinations = () => {
     <h3 >Paris, France</h3>
 
     <div className={styles.seeMore}>
-      <button className='btn btn-outline-success'>
+     <Link to="/trending"><button className='btn btn-outline-success'>
         See more!
       </button>
+      </Link>
     </div>
 
 
@@ -56,9 +58,10 @@ const TopDestinations = () => {
     <h3>Rome, Italy</h3>
 
     <div className={styles.seeMore}>
-      <button className='btn btn-outline-success'>
+    <Link to="/trending"><button className='btn btn-outline-success'>
         See more!
       </button>
+      </Link>
     </div>
 
     
@@ -70,9 +73,10 @@ const TopDestinations = () => {
     <h3>Santorini, Greece</h3>
 
     <div className={styles.seeMore}>
-      <button className='btn btn-outline-success'>
+    <Link to="/trending"><button className='btn btn-outline-success'>
         See more!
       </button>
+      </Link>
     </div>
 
 
@@ -87,9 +91,10 @@ const TopDestinations = () => {
     <h3>Kyoto, Japan</h3>
 
     <div className={styles.seeMore}>
-      <button className='btn btn-outline-success'>
+    <Link to="/trending"><button className='btn btn-outline-success'>
         See more!
       </button>
+      </Link>
     </div>
 
 
@@ -101,9 +106,10 @@ const TopDestinations = () => {
     <h3>Istanbul, Turkey</h3>
 
     <div className={styles.seeMore}>
-      <button className='btn btn-outline-success'>
+    <Link to="/trending"><button className='btn btn-outline-success'>
         See more!
       </button>
+      </Link>
     </div>
 
 
@@ -116,9 +122,10 @@ const TopDestinations = () => {
 
 
     <div className={styles.seeMore}>
-      <button className='btn btn-outline-success'>
+    <Link to="/trending"><button className='btn btn-outline-success'>
         See more!
       </button>
+      </Link>
     </div>
     </div>
    

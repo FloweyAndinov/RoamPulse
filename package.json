@@ -1,10 +1,13 @@
 {
+  "homepage": "https://FloweyAndinov.github.io/RoamPulse/",
   "name": "roam-pulse",
   "private": true,
   "version": "1.0.0",
   "type": "module",
   "scripts": {
     "dev": "vite",
+    "predeploy" : "npm run build",
+    "deploy" : "gh-pages -d build",
     "build": "tsc && vite build",
     "preview": "vite preview"
   },
@@ -23,6 +26,7 @@
     "@types/react-dom": "^18.2.15",
     "@vitejs/plugin-react": "^4.1.1",
     "@wixc3/react-board": "^2.3.0",
+    "gh-pages": "^6.1.0",
     "react-router-dom": "^6.20.0",
     "sass": "^1.69.5",
     "typescript": "^5.2.2",
