@@ -36,7 +36,7 @@ export const NavbarComp = () => {
           <Link to="/contacts" style={{ textDecoration: 'none' }}><Nav className={classNames("px-3", styles.navbtn)}>Contact Us</Nav></Link>
           {/* Add more Nav.Link components as needed */}
         </Nav>
-        <Button variant="danger">Sign Up</Button>
+        <Link to="/signin"><Button variant="danger">Sign Up</Button></Link>
       </Navbar.Collapse>
     </Navbar>
  </div>

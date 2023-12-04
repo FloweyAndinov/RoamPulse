@@ -5,8 +5,9 @@ import { createBrowserRouter , RouterProvider , Router } from 'react-router-dom'
 import Home from './components/pages/home/Home';
 import FeaturesPage from "./components/pages/features/FeaturesPage";
 import TrendingPage from "./components/pages/trending/TrendingPage";
-import PricingPage from "./components/pages/pricing/PricingPage";
+import PricingPage from "src/components/pages/pricing/Pricing";
 import ContactsPage from "./components/pages/contacts/ContactsPage";
+import SignUpPage from "./components/pages/sign/SignUpPage";
 
 
 function App() {
@@ -41,6 +42,12 @@ function App() {
             path : "/contacts",
             element : <>
             <ContactsPage/>
+            </>
+        },
+        {
+            path : "/signin",
+            element : <>
+            <SignUpPage/>
             </>
         }
     ])

@@ -1,14 +1,14 @@
 import React from 'react'
 import { NavbarComp } from 'src/components/navbar/navbarcomp'
-import Pricing from 'src/components/pricing/Pricing'
+import SignUp from 'src/components/sign/SignUp'
 
-const PricingPage = () => {
+const SignUpPage = () => {
   return (
     <>
     <NavbarComp/>
-    <Pricing/>
+    <SignUp/>
     </>
   )
 }
 
-export default PricingPage
+export default SignUpPage
