@@ -31,18 +31,14 @@ const TopDestinations = () => {
         <h1>Top Destinations</h1>
     </div>
 
-    <div className={classNames("container" , styles.container)} style={{width : '120rem'}}>
+    <div className={classNames("container" , styles.container)} style={{}}>
 <div className={classNames("row" , styles.row)}>
 
     <div className={classNames("col" , styles.col)} 
     style={{backgroundImage : `url(${darkparisimg})`}}
     >
-      <div>
-
-      </div>
-      <div>
-        
-      </div>
+      
+     
     <h3 >Paris, France</h3>
 
     <div className={styles.seeMore}>
@@ -56,12 +52,7 @@ const TopDestinations = () => {
     <div className={classNames("col" , styles.col)} 
     style={{backgroundImage : `url(${darkromeimg})`}}
     >
-    <div>
-        
-    </div>
-    <div>
-        
-    </div>
+   
     <h3>Rome, Italy</h3>
 
     <div className={styles.seeMore}>
@@ -75,12 +66,7 @@ const TopDestinations = () => {
     <div className={classNames("col" , styles.col)} 
     style={{backgroundImage : `url(${darksantoriniimg})`}}
     >
-    <div>
-        
-    </div>
-    <div>
-        
-    </div>
+    
     <h3>Santorini, Greece</h3>
 
     <div className={styles.seeMore}>
@@ -97,12 +83,7 @@ const TopDestinations = () => {
 <div className={classNames("col" , styles.col)} 
     style={{backgroundImage : `url(${darkkyotoing})`}}
     >
-    <div>
-        
-    </div>
-    <div>
-        
-    </div>
+    
     <h3>Kyoto, Japan</h3>
 
     <div className={styles.seeMore}>
@@ -116,12 +97,7 @@ const TopDestinations = () => {
     <div className={classNames("col" , styles.col)} 
     style={{backgroundImage : `url(${darkistanbulimg})`}}
     >
-    <div>
-        
-    </div>
-    <div>
-        
-    </div>
+   
     <h3>Istanbul, Turkey</h3>
 
     <div className={styles.seeMore}>
@@ -135,12 +111,7 @@ const TopDestinations = () => {
     <div className={classNames("col" , styles.col)} 
     style={{backgroundImage : `url(${darksofiaimg})`}}
     >
-    <div>
-        
-    </div>
-    <div>
-        
-    </div>
+    
     <h3>Sofia, Bulgaria</h3>
 
 
