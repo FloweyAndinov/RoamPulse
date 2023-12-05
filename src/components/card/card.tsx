@@ -13,11 +13,14 @@ import React, { useState } from "react";
 import { useSpring, animated } from "react-spring";
 
 
-interface Props {
-  imagee : string
+interface CardProps {
+  img: string;
+  title : string;
+  description: string;
 }
 
-function Card({imagee} : Props) {
+
+const Card = ({ img, title , description } : CardProps) => {
   const [show, setShown] = useState(false);
 
   const props3 = useSpring({
@@ -26,6 +29,7 @@ function Card({imagee} : Props) {
       ? "0 20px 25px rgb(0 0 0 / 25%)"
       : "0 2px 10px rgb(0 0 0 / 8%)"
   });
+
   return (
     <animated.div
       className={styles.card}
@@ -34,12 +38,12 @@ function Card({imagee} : Props) {
       onMouseLeave={() => setShown(false)}
     >
     <div style={{backgroundColor : 'white'}}>
-      <img src={imagee} alt="" className={styles.img}/>
-      <h2>Title</h2>
+      <img src={img} alt="" className={styles.img}/>
+      <h2>
+        {title}
+      </h2>
       <p className={styles.par}>
-        Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam
-        nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat
-        volutpat.
+        {description}
       </p>
       <div className={styles.btnn}>
       </div>
