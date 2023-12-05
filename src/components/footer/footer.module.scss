@@ -5,15 +5,18 @@
     background-image: url("src/assets/footer.png");
     padding-bottom: 3rem;
     color: #d0d0d0;
+    
 }
 
 .title {
-    padding-top: 3rem;
-    margin-bottom: 3rem;
+    padding-top: 2rem;
+    margin-bottom: 1rem;
+    font-weight: 300;
+    font-family: 'Mulish' , fallback;
 }
 
 .title h1 {
-    font-size: 3.5rem;
+    font-size: 2.7rem;
     
     color: #ff2200;
     font-weight: bolder;
@@ -25,10 +28,10 @@
     justify-content: center;
 }
 .icon {
-    margin: 0 1rem;
+     margin-top: 1.5rem;
 }
 
 .icon svg {
-    height : 4rem;
+    height : 3.5rem;
     filter : invert(90%);
 }

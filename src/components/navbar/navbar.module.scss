@@ -8,12 +8,15 @@
 .navbtn:hover {
     color: #0060FF;
     text-decoration: underline #0060FF !important;
+    
 }
 
 .signUp {
     background-color: red;
     color: white;
     margin-left : 0;
+    font-family: 'Mulish' , fallback;
+    font-size: 1.1rem;
 }
 
 
@@ -22,6 +25,8 @@
     margin : 0 0.5rem;
     padding: 1rem;
     color : #181818;
+    font-family: 'Mulish' , fallback;
+    font-size: 1.1rem;
     // background-color: #0060FF;
 }
 

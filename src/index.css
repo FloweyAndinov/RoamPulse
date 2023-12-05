@@ -13,3 +13,8 @@ body {
       font-size: 11px;
   }
 }
+
+@font-face {
+  font-family: 'Mulish';
+  src: url('src/assets/fonts/mulish/static/Mulish-Regular.ttf') format('truetype');
+}

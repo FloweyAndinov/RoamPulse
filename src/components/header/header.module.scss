@@ -6,6 +6,7 @@
     background-size: cover; 
     background-position: center; 
     background-repeat: no-repeat; 
+    
 }
 
 .logo {
@@ -53,6 +54,8 @@
     margin-bottom: 5em;
     font-size: 3rem;
     transition: 0.3s;
+    font-family: 'Mulish' , fallback;
+
 }
 
 .seemorebutton:hover {
