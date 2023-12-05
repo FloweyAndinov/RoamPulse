@@ -1,5 +1,5 @@
 .pricingPage {
-    width: 50rem;
+    max-width: 50rem;
     margin: 7rem auto;
     text-align: center;
   }
