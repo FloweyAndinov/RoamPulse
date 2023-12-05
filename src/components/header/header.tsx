@@ -12,6 +12,13 @@ import "bootstrap/dist/js/bootstrap.js"
 
 
 export const Header = () => {
+
+    const scrollToFeatures = () => {
+        const featuresElement = document.getElementById('features');
+        featuresElement?.scrollIntoView({ behavior: 'smooth' });
+    };
+
+
     return (
     <div className={classNames(styles.root)} style={{ backgroundImage : `url(${bg})`}} id="header">
         <div className={styles.logo}>
@@ -20,11 +27,10 @@ export const Header = () => {
         <h1 className={styles.herotitle}>RoamPulse</h1>
         <h2 className={styles.herotitle2}>The Best Travel Assistant</h2>
         <div>
-            <a href="#features">
-        <button className={classNames(styles.seemorebutton)}>
-                Click to see more!
-            </button>
-            </a>
+          
+        <button className={classNames(styles.seemorebutton)} onClick={scrollToFeatures}>
+            Click to see more!
+        </button>
         </div>
     </div>
     )
