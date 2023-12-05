@@ -12,11 +12,11 @@ const FeaturesPage = () => {
   return (
     <>
         <NavbarComp/>
-        <Trending image={Paris} title="Event Tracker" paragraph='Paris, the epitome of sophistication'/>
+        <Trending image={Paris} title="Event Tracker" paragraph='With our Event Tracker feature, never miss an event in Paris, the epitome of sophistication. Stay updated with the latest happenings and plan your visit accordingly.'/>
    
-   <Trending image={Rome} title="Best Price" paragraph='Rome, the eternal city'/>
+   <Trending image={Rome} title="Best Price" paragraph='Experience Rome, the eternal city, without breaking the bank. Our Best Price feature ensures you get the best deals on flights, hotels, and experiences.'/>
    
-   <Trending image={Santorini} title="AI Maps" paragraph="Santorini, a gem in the Aegean."/>
+   <Trending image={Santorini} title="AI Maps" paragraph="Navigate the gem of the Aegean, Santorini, with ease. Our AI Maps feature provides intelligent routing to optimize your travel experience."/>
         <Footer/>
     </>
   )
