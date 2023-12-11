@@ -2,17 +2,20 @@
     
 }
 .img {
-    height : 25em;
+    height : auto;
+    width : 30vw;
 }
 @media screen and (max-width: 1000px) {
     .img {
-       height: 23em;
+       height: auto;
+       width : 30vw;
     }
   }
 
   @media screen and (max-width: 550px) {
     .img {
-       height: 20em;
+       height: auto;
+       width : 30vw;
     }
   }
 
