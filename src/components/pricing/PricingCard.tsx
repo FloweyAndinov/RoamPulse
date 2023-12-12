@@ -18,6 +18,7 @@ const PricingCard: React.FC<PricingCardProps> = ({ title, price, features }) => 
         ))}
       </ul>
       <button className={styles.purchaseButton}>Purchase</button>
+
     </div>
   );
 };
