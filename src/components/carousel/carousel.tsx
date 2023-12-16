@@ -3,10 +3,11 @@ import styles from './carousel.module.scss';
 
 import "bootstrap/dist/css/bootstrap.min.css"
 import "bootstrap/dist/js/bootstrap.js"
-import { useState, useEffect } from 'react';
+import { useState, useEffect, useRef } from 'react';
 import Carousel3D from 'react-spring-3d-carousel';
 import { config } from "react-spring";
 import Card from '../card/card';
+import { Link } from 'react-router-dom';
 
 /**
  * This component was created using Codux's Default new component template.
@@ -16,10 +17,31 @@ import Card from '../card/card';
 
 export const Carousel = (props : any) => {
 
-    const table = props.cards.map((element : any, index : any) => {
-        return { ...element, onClick: () => setGoToSlide(index) };
-      });
-    
+  const [lastIndex, setLastIndex] = useState(0);
+  
+  const lastIndexRef = useRef(lastIndex);
+
+  useEffect(() => {
+    lastIndexRef.current = lastIndex;
+  }, [lastIndex]);
+  
+  const table = props.cards.map((element : any, index : any) => {
+    return { 
+      ...element, 
+      onClick: () => {
+        //if index is equal to lastIndexRef.current then go to features page
+        if (index === lastIndexRef.current) {
+          window.location.href = "/#features";
+        }
+        else {
+          console.log(index + " " + lastIndexRef.current);
+          setLastIndex(index); 
+          setGoToSlide(index);
+          console.log(index + " " + lastIndexRef.current);
+        }
+      }
+    };
+  });
       const [offsetRadius, setOffsetRadius] = useState(2);
       const [showArrows, setShowArrows] = useState(false);
       const [goToSlide, setGoToSlide] = useState(0);
@@ -34,12 +56,13 @@ export const Carousel = (props : any) => {
 
     return (
     <div style={{ width: props.width, height: props.height, margin: props.margin}}>
+      
         <Carousel3D
         slides={cards}
         goToSlide={goToSlide}
         offsetRadius={offsetRadius}
         showNavigation={showArrows}
-        animationConfig={config.stiff}
+        animationConfig={config.gentle}
       />
         
 

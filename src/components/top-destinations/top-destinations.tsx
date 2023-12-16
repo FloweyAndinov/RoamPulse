@@ -94,7 +94,8 @@ const TopDestinations = () => {
     <h3>Kyoto, Japan</h3>
 
     <div className={styles.seeMore}>
-    <Link to="/trending"><button className='btn btn-outline-success'>
+    <Link to={{ pathname: "/trending", hash: "#Kyoto" }}>
+      <button className='btn btn-outline-success'>
         See more!
       </button>
       </Link>
@@ -109,7 +110,8 @@ const TopDestinations = () => {
     <h3>Istanbul, Turkey</h3>
 
     <div className={styles.seeMore}>
-    <Link to="/trending"><button className='btn btn-outline-success'>
+    <Link to={{ pathname: "/trending", hash: "#Istanbul" }}>
+      <button className='btn btn-outline-success'>
         See more!
       </button>
       </Link>
@@ -125,7 +127,8 @@ const TopDestinations = () => {
 
 
     <div className={styles.seeMore}>
-    <Link to="/trending"><button className='btn btn-outline-success'>
+    <Link to={{ pathname: "/trending", hash: "#Sofia" }}>
+      <button className='btn btn-outline-success'>
         See more!
       </button>
       </Link>

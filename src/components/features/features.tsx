@@ -37,8 +37,11 @@ export default function Features () {
     {
       key: uuidv4(),
       content: (
-        <Card img="https://support-cdn.route4me.com/2020/09/5f32c0a0-route-optimization-for-the-shortest-route.jpg" title="Route Optimization" description="Find the most efficient route to your destination." />
-      )
+        <Card img="https://support-cdn.route4me.com/2020/09/5f32c0a0-route-optimization-for-the-shortest-route.jpg" title="Route Optimization" description="Find the most efficient route to your destination." 
+        />
+        
+      ),
+      
     },
     {
       key: uuidv4(),
@@ -56,7 +59,9 @@ export default function Features () {
         width="50%"
         margin="10em auto 10em"
         offset={2}
-        showArrows={false}/>
+        showArrows={false}
+        onClick={() => console.log("clicked")}
+        />
         
     </div>
     )
