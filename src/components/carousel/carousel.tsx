@@ -29,19 +29,18 @@ export const Carousel = (props : any) => {
     return { 
       ...element, 
       onClick: () => {
-        //if index is equal to lastIndexRef.current then go to features page
         if (index === lastIndexRef.current) {
           window.location.href = "/#features";
         }
         else {
-          console.log(index + " " + lastIndexRef.current);
           setLastIndex(index); 
           setGoToSlide(index);
-          console.log(index + " " + lastIndexRef.current);
         }
       }
     };
   });
+
+  
       const [offsetRadius, setOffsetRadius] = useState(2);
       const [showArrows, setShowArrows] = useState(false);
       const [goToSlide, setGoToSlide] = useState(0);
